@@ -1,10 +1,45 @@
 body
 {
-    background-color: #344A5F;
+    background-color: #F0F0F0;
 }
 
 .font
 {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   color:white;
+   font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+   color:black;
+   font-size: 14pt;
+}
+.header
+{
+    border-bottom-style: solid;
+    border-bottom-color: darkslateblue;
+    border-bottom-width: 2px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    
+}
+.social
+{
+    float: right;
+}
+
+#name
+{
+    font-size: 18pt;
+    font-weight: bold;
+}
+#subtitle
+{
+    border-left-style: solid;
+    border-left-color: darkslateblue;
+    border-left-width: 4px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.page
+{
+    margin-left: auto;
+    margin-right:auto;
+    width: 1000px;
 }
